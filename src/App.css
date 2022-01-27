@@ -1,6 +1,27 @@
-#root {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+}
+
+.wrapper{
+  width: 375px;
+  height: 812px;
+  background-image: url("Background.png");
+  position: relative;
+}
+
+.desk{
+  background-color: #0F0F29;
+}
+
+.home{
+  border: none;
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
 }
