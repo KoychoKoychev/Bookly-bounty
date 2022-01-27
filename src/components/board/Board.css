@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-img{
+.pic-img{
   width: 260px;
   height: 260px;
   margin-left: 57px;
@@ -14,10 +14,14 @@ img{
   line-height: 24px;
   text-align: center;
   color:#F5F5FA;
+  width: 287px;
+
+}
+
+.tittle-pos{
   margin-left: 48px;
   margin-top: 19px;
   margin-bottom: 11px;
-  width: 287px;
   padding: 0px;
 }
 
@@ -108,4 +112,8 @@ img{
   border: none;
   padding-top: 2px;
   cursor: pointer;
+}
+
+.background{
+  background-image: url("/src/Background.png");
 }

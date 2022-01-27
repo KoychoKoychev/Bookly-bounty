@@ -2,7 +2,7 @@ import "./Welcome.css";
 
 export default function Welcome(props) {
     return(
-        <div className="container">
+        <div className="container background">
             <p className="welcome-text">Welcome !</p>
             <p className="greet">Find what you are looking for</p>
             <p className="semi-text">By personalize your account, we can help you to find what you like.</p>

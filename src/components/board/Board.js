@@ -25,9 +25,9 @@ export default function Board(props) {
     const currPage = pages[page];
 
     return (
-        <div>
-            <img src={currPage.url} alt="background" className="img" />
-            <p className="tittle">{currPage.title}</p>
+        <div className="background">
+            <img src={currPage.url} alt="background" className="pic-img" />
+            <p className="tittle tittle-pos">{currPage.title}</p>
             <p className="text">Lorem ipsum dolor sit amet la maryame dor sut colondeum.</p>
             <div className="nav">
                 <button onClick={() => setPage(1)} className={currPage.loc === 1 ? "cur" : "loc"}></button>

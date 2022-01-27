@@ -2,16 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .wrapper{
   width: 375px;
   height: 812px;
-  background-image: url("Background.png");
   position: relative;
-}
-
-.desk{
   background-color: #0F0F29;
 }
 

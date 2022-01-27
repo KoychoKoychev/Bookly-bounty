@@ -4,20 +4,20 @@ import Board from "./components/board/Board";
 import Welcome from "./components/welcome/Welcome";
 import Personalize from "./components/personalization/Personalize";
 import Library from "./components/library/Library";
+import Player from "./components/player/Player";
 
 function App() {
   return (
     <Router>
       <div className="container">
-        <div className="desk">
-          <div className="wrapper">
-            <Routes>
-              <Route path="/" element={<Board/>}/>
-              <Route path="/welcome" element={<Welcome/>}/>
-              <Route path="/personalize" element={<Personalize/>}/>
-              <Route path="/library" element={<Library/>}/>
-            </Routes>
-          </div>
+        <div className="wrapper">
+          <Routes>
+            <Route path="/" element={<Board />} />
+            <Route path="/welcome" element={<Welcome />} />
+            <Route path="/personalize" element={<Personalize />} />
+            <Route path="/library" element={<Library />} />
+            <Route path="/listen:id" element={<Player/>} />
+          </Routes>
           <button className="home"></button>
         </div>
       </div>
