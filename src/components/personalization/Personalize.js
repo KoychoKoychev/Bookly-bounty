@@ -10,7 +10,7 @@ export default function Personalize(props) {
 
     const savePrefs = () => {
         const customTopic = document.querySelector(".input-field").value;
-        if (selected.length < 3 && customTopic === "") {
+        if ((selected.length < 3 && customTopic === "") || selected.length < 2) {
             alert("You have to select at least 3 topics")
         } else {
             if (customTopic === "") {
