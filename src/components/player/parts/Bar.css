@@ -1,0 +1,65 @@
+.controls-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 299px;
+  margin-top: 9.2%;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.bar {
+    user-select: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.bar__time {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #9292A2;
+    display: inline-block;
+    padding-right: 4px;
+}
+
+.bar__progress {
+    flex: 1;
+    border-radius: 4px;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bar__progress__knob {
+    position: relative;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #4838D1;
+}
+
+.player__button {
+    width: 72px;
+    height: 72px;
+    margin-top:6%;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.player__button svg, .player__button svg g{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
