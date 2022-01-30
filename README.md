@@ -8,7 +8,7 @@ Create a mobile application using React for listening audiobooks based on a prov
 
 ## Executing program
 
-The project when started via
+The project runs when started via
 
 ```
 npm run start
