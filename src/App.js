@@ -1,20 +1,27 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Board from "./components/board/Board";
+import Welcome from "./components/welcome/Welcome";
+import Personalize from "./components/personalization/Personalize";
+import Library from "./components/library/Library";
+import Player from "./components/player/Player";
 
 function App() {
   return (
-    <div className="App">
-      <section class="hero">
-        <div class="hero-body">
-          <p class="title">A React Task</p>
-          <p class="subtitle">by Boom.dev</p>
-        </div>
-      </section>
-      <div class="container is-fullhd">
-        <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+    <Router>
+      <div className="container">
+        <div className="wrapper">
+          <Routes>
+            <Route path="/" element={<Board />} />
+            <Route path="/welcome" element={<Welcome />} />
+            <Route path="/personalize" element={<Personalize />} />
+            <Route path="/library" element={<Library />} />
+            <Route path="/listen:id" element={<Player/>} />
+          </Routes>
+          <button className="home"></button>
         </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

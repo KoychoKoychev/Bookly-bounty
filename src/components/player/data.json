@@ -1,0 +1,44 @@
+{
+    "theBlackWitch": {
+        "_id": "theBlackWitch",
+        "title": "The Black Witch",
+        "author": "Laurie Forest",
+        "imgUrl": "/images/books/Image Placeholder 1.png",
+        "audioUrl": "/audio/audioBook 1.mp3"
+    },
+    "aPromisedLand": {
+        "_id": "aPromisedLand",
+        "title": "A Promised Land",
+        "author": "Barrack Obama",
+        "imgUrl": "/images/books/Image Placeholder 2.png",
+        "audioUrl": "/audio/audioBook 2.mp3"
+    },
+    "harryPotter": {
+        "_id": "harryPotter",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J.K. Rowling",
+        "imgUrl": "/images/books/Image Placeholder 3.png",
+        "audioUrl": "/audio/audioBook 3.mp3"
+    },
+    "theKidnapperAccomplice": {
+        "_id": "theKidnapperAccomplice",
+        "title": "The Kidnapper's Accomplice",
+        "author": "C. J. Archer",
+        "imgUrl": "/images/books/Image Placeholder 4.png",
+        "audioUrl": "/audio/audioBook 4.mp3"
+    },
+    "lightMage": {
+        "_id": "lightMage",
+        "title": "Light Mage",
+        "author": "Author Name",
+        "imgUrl": "/images/books/Image Placeholder 5.png",
+        "audioUrl": "/audio/audioBook 5.mp3"
+    },
+    "lightMage2": {
+        "_id": "lightMage2",
+        "title": "Light Mage",
+        "author": "Author Name",
+        "imgUrl": "/images/books/Image Placeholder 5.png",
+        "audioUrl": "/audio/audioBook 5.mp3"
+    }
+}

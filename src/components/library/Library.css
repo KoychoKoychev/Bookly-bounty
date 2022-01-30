@@ -1,0 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.large-heading{
+    display: inline-block;
+    font-family: "SF Pro Display",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-left: 8px;
+    letter-spacing: 0.3px;
+}
+
+.head-location{
+    display: flex;
+    justify-content: initial;
+    margin-left: 28px;
+    margin-top:46px;
+}
+
+.heading-section{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F5F5FA;
+    margin-top: 42px;
+    margin-left: 20px;
+}
+
+.input-pos{
+    margin-left:20px;
+    margin-top: 12px;
+    width: 335px;
+}
+
+.books-list{
+    width: 335px;
+    margin: auto;
+    margin-top: 16px;
+    height: 536px;
+    overflow: scroll;
+}
+
+.books-list::-webkit-scrollbar{
+    width: 0px;
+}
